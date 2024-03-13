@@ -1,0 +1,24 @@
+.board {
+  display: grid;
+  place-content: center;
+  height: 200px;
+  width: 200px;
+  background-color: white;
+}
+
+.board-row {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  width: fit-content;
+}
+
+.square {
+  height: 60px;
+  width: 60px;
+  border: 1px solid white;
+  background-color: #242424;
+  font-size: 18px;
+  border-radius: 0px;
+  outline: none;
+}
